@@ -17,7 +17,7 @@ const app = new Vue({
                 //se evalúa el número ingresado con el numero al azar
                 if (parseInt(valorIngresado) === parseInt(this.numeroRandom)) {
                     // console.log("Iguales");
-                    document.getElementById('mensaje').innerHTML = "Iguales";
+                    document.getElementById('mensaje').innerHTML = "Has triunfado";
                     document.getElementById('numeroRandom').innerHTML = this.numeroRandom;
 
                     this.numIntentos++;
